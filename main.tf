@@ -1,6 +1,6 @@
 module "vpc" {
     source      = "./vendor/modules/vpc/"
-    VPC_CIDR    =  var.VPC_CIDR
-    PUBLIC_SUBNET_CIDR = var.PUBLIC_SUBNET_CIDR
-    PRIVATE_SUBNET_CIDR = var.PRIVATE_SUBNET_CIDR
+    cidr    =  var.VPC_CIDR
+    publicsubnet = var.PUBLIC_SUBNET_CIDR
+    privatesubnet = var.PRIVATE_SUBNET_CIDR
 }
