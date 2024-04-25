@@ -9,3 +9,5 @@ variable "PRIVATE_SUBNET_CIDR" {
 }
 
 variable "ENV" {}
+
+variable "AZ" {}
